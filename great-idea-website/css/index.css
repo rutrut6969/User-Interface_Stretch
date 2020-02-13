@@ -53,9 +53,10 @@ table {
 	box-sizing: border-box;
 }
 
-html, body {
+html, body, p {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Lemonada', cursive;
+
 }
 
 h1, h2, h3, h4, h5 {
@@ -68,6 +69,14 @@ h1, h2, h3, h4, h5 {
 /* Navigation*/
 .navigation{
 	width: 100%;
+	position: fixed;
+	background-color: whitesmoke;
+	max-height: 11%;
+	z-index: 0;
+	padding-bottom: 10px;
+	border: 1px solid gray;
+	box-shadow: 2px 3px 6px black;
+	border-radius: 0 0 15px 15px;
 }
 .nav{
 	padding: 10px;
@@ -86,6 +95,7 @@ li{
 	display: inline-block;
 	width: 14%;
 	border-right: 1px solid black;
+	
 
 }
 li:last-child{
@@ -106,7 +116,8 @@ a{
 }
 
 .logo{
-	display: inline-block;
+	margin-top: 4%;
+	display: block;
 	float: right;    
 	width: 86%;
 	
@@ -123,6 +134,7 @@ header{
 	border-right: 1px solid black;
 	font-size: 100px;
 	text-align: center;
+	margin-top: 10%;
 
 }
 .innovation button{
